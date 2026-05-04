@@ -2,19 +2,28 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Xiaolong Wu
+title: "Xiaolong Wu"
 
-first_name: Xiaolong
-middle_name:
-last_name: Wu
+first_name: "Xiaolong"
+middle_name: ""
+last_name: "Wu"
 
-email: Postxlw@gmail.com
 
 contact_note: >
+  email: xw7 dot hw dot ac dot uk
   Feel free to contact me via email.
 
 description: >
-  PhD student working on Agentic AI.
+  I am a PhD researcher in the BCML Lab, School of Mathematical and Computer Sciences at Heriot-Watt University, under the supervision of Prof. Wei Pang. My research interests focus on agentic AI, multi-agent systems, and the development of AI-driven solutions for biomedical applications and real-world industrial challenges.
+
+research_interests:
+  - Agentic AI
+  - Multi-agent systems
+  - AI for biomedical research
+  - AI for real-world industrial problems
+
+bio: >
+  My academic and professional background combines artificial intelligence, aerospace engineering, and industrial systems. I obtained an MSc in Aerospace Dynamics from Cranfield University in 2021, following a First Class Honours degree in Mechanical Engineering from De Montfort University. Since 2022, I have been working with Commercial Aircraft Corporation of China (COMAC), where I am responsible for managing airframe and system suppliers for the C919 and ARJ21 (C909) aircraft programmes. Through this role, I have gained experience in large-scale engineering systems, supplier coordination, and complex industrial project management, while maintaining a strong interest in bridging advanced AI research with practical deployment in high-impact domains.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
@@ -28,7 +37,7 @@ keywords:
 
 lang: en
 
-icon: ⚛️
+icon: 🤖
 
 url: "https://xldot.github.io"
 
@@ -71,7 +80,8 @@ external_services:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+show_only_home: true # when true, hide all navbar page items except Home
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
